@@ -1,0 +1,94 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.recensione-card {
+    width: 1000px;
+    max-width: 100%;
+    height: 203px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 4px;
+    margin: 50px auto;
+    border: 1px solid #ededed;
+    overflow: hidden;
+}
+
+.recensione-header {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.recensione-img-container {
+    flex-shrink: 0;
+}
+
+.recensione-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.recensione-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.recensione-title {
+    font-size: 16px; /* Font del titolo */
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.recensione-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.recensione-rating svg {
+    width: 18px; /* Stelle leggermente più piccole */
+    height: 18px;
+    margin-right: 3px;
+    fill: #000; /* Stelle nere */
+}
+
+.recensione-date {
+    font-size: 12px; /* Font della data */
+    color: #666;
+}
+
+.recensione-body-container {
+    max-height: 90px; /* Altezza contenitore descrizione */
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.recensione-body {
+    font-size: 14px; /* Font della descrizione */
+    color: #333; /* Grigio scuro */
+    line-height: 1.5;
+}
+
+.recensione-body-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.recensione-body-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.recensione-body-container::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+}
